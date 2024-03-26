@@ -36,14 +36,6 @@ declare-option str background     %opt{black2}
 declare-option str overlay0       "rgb:8087a2"
 declare-option str overlay1       "rgb:939ab7"
 
-# For markup
-face global title blue
-face global header cyan
-face global mono green
-face global block magenta
-face global link cyan
-face global bullet cyan
-face global list yellow
 
 # builtin faces
 face global Default default,default
@@ -72,6 +64,15 @@ face global MatchingChar default,default+b
 face global Whitespace default,default+fd
 face global BufferPadding blue,default
 
+# For markup
+face global title blue
+face global header cyan
+face global mono green
+face global block magenta
+face global link cyan
+face global bullet cyan
+face global list yellow
+
 # For Code
 face global value red
 face global type yellow
@@ -88,8 +89,8 @@ face global meta magenta
 face global builtin default+b
 
 # Tree-sitter (<https://github.com/hadronized/kak-tree-sitter>)
-set-face global ts_attribute                    "%opt{blue}"
-set-face global ts_comment                      "%opt{overlay0}+i"
+set-face global ts_attribute                    attribute
+set-face global ts_comment                      comment
 set-face global ts_conceal                      "%opt{mauve}+i"
 set-face global ts_constant                     "%opt{orange}"
 set-face global ts_constant_builtin_boolean     "%opt{sky}"
@@ -101,17 +102,17 @@ set-face global ts_diff_minus                   "%opt{red}"
 set-face global ts_diff_delta                   "%opt{blue}"
 set-face global ts_diff_delta_moved             "%opt{mauve}"
 set-face global ts_error                        "%opt{red}+b"
-set-face global ts_function                     "%opt{blue}"
-set-face global ts_function_builtin             "%opt{blue}+i"
-set-face global ts_function_macro               "%opt{mauve}"
-set-face global ts_hint                         "%opt{blue}+b"
-set-face global ts_info                         "%opt{green}+b"
-set-face global ts_keyword                      "%opt{mauve}"
-set-face global ts_keyword_conditional          "%opt{mauve}+i"
-set-face global ts_keyword_control_conditional  "%opt{mauve}+i"
-set-face global ts_keyword_control_directive    "%opt{mauve}+i"
-set-face global ts_keyword_control_import       "%opt{mauve}+i"
-set-face global ts_keyword_directive            "%opt{mauve}+i"
+set-face global ts_function                     function
+set-face global ts_function_builtin             function
+set-face global ts_function_macro               function
+set-face global ts_hint                         function
+set-face global ts_info                         function
+set-face global ts_keyword                      keyword
+set-face global ts_keyword_conditional          keyword
+set-face global ts_keyword_control_conditional  keyword
+set-face global ts_keyword_control_directive    keyword
+set-face global ts_keyword_control_import       keyword
+set-face global ts_keyword_directive            keyword
 set-face global ts_label                        "%opt{cyan}+i"
 set-face global ts_markup_bold                  "%opt{orange}+b"
 set-face global ts_markup_heading               "%opt{red}"
@@ -135,7 +136,7 @@ set-face global ts_markup_quote                 "%opt{gray1}"
 set-face global ts_markup_raw                   "%opt{green}"
 set-face global ts_markup_strikethrough         "%opt{gray1}+s"
 set-face global ts_namespace                    "%opt{blue}+i"
-set-face global ts_operator                     "%opt{sky}"
+set-face global ts_operator                     operator
 set-face global ts_property                     "%opt{sky}"
 set-face global ts_punctuation                  "%opt{overlay1}"
 set-face global ts_punctuation_special          "%opt{sky}"
@@ -156,7 +157,7 @@ set-face global ts_text_title                   "%opt{mauve}"
 set-face global ts_type                         "%opt{yellow}"
 set-face global ts_type_enum_variant            "%opt{flamingo}"
 set-face global ts_variable                     "%opt{white}"
-set-face global ts_variable_builtin             "%opt{red}"
-set-face global ts_variable_other_member        "%opt{teal}"
-set-face global ts_variable_parameter           "%opt{maroon}+i"
+set-face global ts_variable_builtin             variable
+set-face global ts_variable_other_member        variable
+set-face global ts_variable_parameter           variable
 set-face global ts_warning                      "%opt{orange}+b"
