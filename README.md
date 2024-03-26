@@ -22,6 +22,7 @@ colorscheme catppuccin_macchiato
 
 ## Available colorschemes
 
+- [ **(WIP)** Default Theme](./colors/default/tree-sitter.kak)
 - [Catppuccin Macchiato](./colors/catppuccin/catppuccin_macchiato.kak)
 
 [tree-sitter]: https://tree-sitter.github.io/tree-sitter/
