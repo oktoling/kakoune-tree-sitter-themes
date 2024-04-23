@@ -106,8 +106,8 @@ set-face global ts_markup_strikethrough         black+u
 set-face global ts_namespace                    module
 set-face global ts_operator                     operator
 set-face global ts_property                     yellow
-set-face global ts_punctuation                  red
-set-face global ts_punctuation_special          red+i
+set-face global ts_punctuation                  yellow
+set-face global ts_punctuation_special          yellow+i
 set-face global ts_special                      magenta+bi
 set-face global ts_spell                        yellow+u
 set-face global ts_string                       string
