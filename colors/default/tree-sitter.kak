@@ -58,7 +58,7 @@ face global builtin default+b
 
 # Tree-sitter (<https://github.com/hadronized/kak-tree-sitter>)
 set-face global ts_attribute                    attribute
-set-face global ts_comment                      default+i
+set-face global ts_comment                      yellow
 set-face global ts_conceal                      white+ui
 set-face global ts_constant                     value
 set-face global ts_constant_builtin_boolean     green
@@ -69,13 +69,13 @@ set-face global ts_diff_plus                    green
 set-face global ts_diff_minus                   red
 set-face global ts_diff_delta                   bright-yellow
 set-face global ts_diff_delta_moved             bright-yellow+i
-set-face global ts_error                        red+b
+set-face global ts_error                        red
 set-face global ts_function                     blue+b
 set-face global ts_function_builtin             blue
 set-face global ts_function_macro               magenta
 set-face global ts_hint                         black
 set-face global ts_info                         default+r
-set-face global ts_keyword                      blue
+set-face global ts_keyword                      keyword
 set-face global ts_keyword_conditional          blue+i
 set-face global ts_keyword_control_conditional  blue+i
 set-face global ts_keyword_control_directive    blue+i
